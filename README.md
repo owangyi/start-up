@@ -14,6 +14,9 @@ The script will do:
 - Configure global env for some tools, such as composer, git
 
 ## Software installed
+* Utils
+  * brew
+
 * Browser
     * Chrome
     * Firefox

@@ -18,6 +18,8 @@ welcome "
         " "${blue}"
 
 # global installation
+source "${module_dir}/brew.sh"
+
 source "${module_dir}/wechat.sh"
 
 # which team
