@@ -16,6 +16,7 @@ The script will do:
 ## Software installed
 * Utils
   * brew
+  * composer
 
 * Browser
     * Chrome
@@ -27,7 +28,22 @@ The script will do:
 
 - Document
   - Notion
-  - 
+
+- Git-related
+  - Git
+  - Git LFS
+  - Fork
+- IDE
+  - PHPStorm
+  - Vscode
+- Terminal
+  - Iterm2
+- Database
+  - ACE pro
+  - workbench
+- Language
+  - PHP 8.3
+  - Node.js
   
 ## Software configured
 * Git
