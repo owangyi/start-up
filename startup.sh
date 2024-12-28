@@ -30,7 +30,8 @@ which_team
 # team specification
 if [[ "${team}" == backend ]]; then
     echo 'backend'
-#    source "${module_dir}/phpstorm.sh"
+
+    source "${module_dir}/composer.sh"
 #elif [  ]; then
 #    # ...
 #elif [  ]; then
