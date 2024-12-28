@@ -1,6 +1,8 @@
 #!/bin/bash
 
 : "${team:=}"
+: "${username:=}"
+: "${email:=}"
 
 blue=$(tput setaf 4)
 reset=$(tput sgr0)
@@ -19,4 +21,12 @@ which_team()
         break
       done
   fi
+}
+
+git_config()
+{
+  read -rp "Please input your username and email for your git" username email
+
+  git config -g user.name $username
+  git config -g user.email $email
 }
